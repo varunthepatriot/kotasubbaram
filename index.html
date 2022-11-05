@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <meta content="" property="og:title">
+  <meta content="" property="og:type">
+  <meta content="" property="og:url">
+  <meta content="" property="og:image">
+
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="preload" href="fonts/karla/Karla-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+  <meta content="#fafafa" name="theme-color">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body" style="background:#b3d4fc;">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+
+<div id="container">
+  <!-- Preloader -->
+
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+    <h1 style="font-size: xx-large;font-family: titleFont;color: #191c1f">Kota V Subbaram - Web Home</h1>
+  </div>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="imageHolder" style="background: #b3d4fc;">
+    <div class="center-div">
+      <div class="banner-background" id="banner" >
+        <div class="doorHoverLeft">
+          <img alt="image 01" src="img/doorleft-min.png" style="width: 100%;height: 100%"/>
+        </div>
+        <div class="doorHoverRight">
+          <img alt="image 02" src="img/doorright-min.png" style="width: 100%;height: 100%"/>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="innerDiv" style="margin-top: 50px;">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-top: 180px; margin-left: 120px;">
+            <img alt="image 03" src="img/pic.png" style="height: 180px;"/>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <div style="font-family:titleFont; font-size: xx-large; font-weight: bolder; padding-top: 190px;color: #191c1f">
+              <h1>Welcome to My Web Home</h1>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 20px;">
+              <button class="btngetstarted" id="btnstartjourney" type="button">
+                Click to Start Your Journey
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+    <h2  style="font-size:large;font-family: titleFont;color: #191c1f">Knock on the Doors</h2>
+  </div>
+</div>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!--  &lt;!&ndash; Google Analytics: change UA-XXXXX-Y to be your site's ID. &ndash;&gt;-->
+<!--  <script>-->
+<!--    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;-->
+<!--    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')-->
+<!--  </script>-->
+<!--  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
+
+<script>
+
+
+
+  $("#btnstartjourney").click(function () {
+    window.location.href = "home.php";
+  })
+
+  $(function () {
+    var $images = $('#imageHolder img');
+    var lastLoadIndex = 0;
+    var loadNextImage = function () {
+      if ($images.length === lastLoadIndex) {
+        return;
+      }
+
+      console.log('loading image at index ' + lastLoadIndex);
+      $images.eq(lastLoadIndex).attr('src', $images.eq(lastLoadIndex).attr('data-src'));
+      lastLoadIndex += 1;
+      setTimeout(function(){
+        console.log('loading....');
+      },5000);
+    };
+    $images.on('load', loadNextImage);
+    loadNextImage();
+  });
+
+</script>
+
+
+</body>
+
+</html>
