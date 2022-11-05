@@ -66,8 +66,7 @@ try {
     //$mail->isSendmail();
     $mail->isHTML(true);
     $mail->addAddress('kvsubbaram@rediffmail.com');
-    $mail->addBCC('info@conceptive.co.in');
-    $mail->addBCC('chanakya@conceptive.co.in');
+    $mail->addBCC('varunthepatriot@gmail.com');
     $mail->addBCC('rchnt@gmail.com');
     $mail->Subject = $subject;
     $mail->Body = $body;
