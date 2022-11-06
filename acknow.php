@@ -58,14 +58,14 @@
                     </li>
                     <li style="font-size: 16px">
                       The <b>COW</b> is also grateful to those individuals ( now deceased or shut shop ), to have had engagement with the
-                      material submitted by the COW for publication in their periodicals in the past in their respective
+                      material submitted by the <b>COW</b> for publication in their periodicals in the past in their respective
                       fields.
                       <hr/>
                     </li>
                     <li style="font-size: 16px">
                       The extent and nature of this WebHome is such that it is not possible at this stage and advanced age
                       of the <b>COW</b> to contact the various individuals and organizations and obtain their formal
-                      acceptance for the material made use of. However, the COW is grateful to all of them for their
+                      acceptance for the material made use of. However, the <b>COW</b> is grateful to all of them for their
                       inherent graciousness.
                       <hr/>
                     </li>
