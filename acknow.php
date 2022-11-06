@@ -51,21 +51,21 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="border-right: 1px solid #fd7d79;">
                   <ul>
                     <li style="font-size: 16px">
-                      The <b>Creator Of this WebHome ( COW )</b> acknowledges the generosity of the various publishers, editors, reviewers of the
+                      The <b>Creator Of this WebHome ( <b style="color:#009900;font-family: 'Times New Roman'">COW )</b></b> acknowledges the generosity of the various publishers, editors, reviewers of the
                       various research journals, magazines, newspapers, and other professional periodicals for providing
                       access to the references quoted in this narrative.
                       <hr/>
                     </li>
                     <li style="font-size: 16px">
-                      The <b>COW</b> is also grateful to those individuals ( now deceased or shut shop ), to have had engagement with the
-                      material submitted by the <b>COW</b> for publication in their periodicals in the past in their respective
+                      The <b style="color:#009900;font-family: 'Times New Roman'">COW</b> is also grateful to those individuals ( now deceased or shut shop ), to have had engagement with the
+                      material submitted by the <b style="color:#009900;font-family: 'Times New Roman'">COW</b> for publication in their periodicals in the past in their respective
                       fields.
                       <hr/>
                     </li>
                     <li style="font-size: 16px">
                       The extent and nature of this WebHome is such that it is not possible at this stage and advanced age
-                      of the <b>COW</b> to contact the various individuals and organizations and obtain their formal
-                      acceptance for the material made use of. However, the <b>COW</b> is grateful to all of them for their
+                      of the <b style="color:#009900;font-family: 'Times New Roman'">COW</b> to contact the various individuals and organizations and obtain their formal
+                      acceptance for the material made use of. However, the <b style="color:#009900;font-family: 'Times New Roman'">COW</b> is grateful to all of them for their
                       inherent graciousness.
                       <hr/>
                     </li>
@@ -74,10 +74,10 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                   <ul style="padding-left: 20px;">
                     <li style="font-size: 16px">
-                      The <b>COW</b> acknowledges the ownership ( copyright ) of the material referred here to its
+                      The <b style="color:#009900;font-family: 'Times New Roman'">COW</b> acknowledges the ownership ( copyright ) of the material referred here to its
                       legitimate owners, and it is “referred to” only to make this non-commercial presentation on the
-                      topic / issue complete. Thanks are due to Mr. Phaniharam Rama Lakshman, of Sudershan Consulting Pvt.
-                      Ltd., India, for providing some appropriate material for use in the preparation of this WebHome.
+                      topic / issue complete. Thanks are due to <b style="color:#3333FF;font-family: 'Times New Roman'">Mr. Phaniharam Rama Lakshman</b>, of <i>Sudershan Consulting Pvt.
+                      Ltd., India</i>, for providing some appropriate material for use in the preparation of this WebHome.
                       <hr/>
                     </li>
                     <li style="font-size: 16px">
@@ -86,8 +86,13 @@
                       <hr/>
                     </li>
                     <li style="font-size: 16px">
-                      The help extended by the son of the <b>COW</b>, Kartik Kota, in collating and organizing the entire
+                      The help extended by the son of the <b style="color:#009900;font-family: 'Times New Roman'">COW</b>, <b style="color:#3333FF;font-family: 'Times New Roman'">Kartik Kota</b>, in collating and organizing the entire
                       material in this WebHome is acknowledged.
+                      <hr/>
+                    </li>
+                    <li style="font-size: 16px">
+                      Thanks are due to <b style="color:#3333FF;font-family: 'Times New Roman'">Mr. Ramesh Chintalapati</b> and <b style="color:#3333FF;font-family: 'Times New Roman'">Mr. Varun Kumar Jayanti</b> for the technical and 
+                      related organizational help provided in the preparation of this entire WebHome.
                       <hr/>
                     </li>
                   </ul>
