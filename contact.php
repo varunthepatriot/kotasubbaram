@@ -51,7 +51,8 @@
                         <div>
                           <h2>CONTACT US</h2>
                         </div>
-                        <form action="forms/sendmail.php" method="post" data-form-title="CONTACT US">
+                        <h3>For any queries/questions/feedback please <a href="mailto:kvs_42@yahoo.com">email me</a>.</h3>
+                        <!-- <form action="forms/sendmail.php" method="post" data-form-title="CONTACT US">
                           <input type="hidden" data-form-email="true">
                           <div class="form-group">
                             <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
@@ -68,7 +69,7 @@
                           <div>
                             <button name="formId" value="1" type="submit" class="btn btn-lg btn-danger">CONTACT US</button>
                           </div>
-                        </form>
+                        </form> -->
                       </div>
                     </div>
                   </div>
